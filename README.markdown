@@ -1,10 +1,10 @@
 Gity Coda Plugin
 ================
 
-This Coda plugin integrates Coda with [Gity](http://gist.github.com/315042), a
+This Coda plugin integrates Coda with [Gity](http://macendeavor.com/gity), a
 sweet little Git client for OS X.
 
-1. [Download Gity](http://gist.github.com/315042)
+1. [Download Gity](http://macendeavor.com/gity)
 2. Install `gity` Terminal support
 3. Profit!
 
