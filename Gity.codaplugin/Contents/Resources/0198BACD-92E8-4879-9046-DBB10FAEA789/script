@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Find a directory ...
+if [ -n "$CODA_SITE_LOCAL_PATH" ]; then
+	cd "$CODA_SITE_LOCAL_PATH"
+elif [ -n "$CODA_FILEPATH" ]; then
+	cd `dirname "$CODA_FILEPATH"`
+fi
+
+# Open gity.
+/usr/local/bin/gity
