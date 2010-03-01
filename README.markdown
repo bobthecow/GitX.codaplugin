@@ -1,20 +1,20 @@
-Gity Coda Plugin
+GitX Coda Plugin
 ================
 
-This Coda plugin integrates Coda with [Gity](http://macendeavor.com/gity), a
+This Coda plugin integrates Coda with [GitX](http://gitx.frim.nl/), a
 sweet little Git client for OS X.
 
-1. [Download Gity](http://macendeavor.com/gity)
-2. Install `gity` Terminal support
+1. [Download GitX](http://gitx.frim.nl/)
+2. Install `gitx` Terminal support
 3. Profit!
 
 
 Usage
 -----
 
-### &#x2303;&#x21E7;G - Open Site in Gity
+### &#x2303;&#x21E7;G - Open Site in GitX
 
-Opens the current site directory in Gity.
+Opens the current site directory in GitX.
 
 If you aren't in a site, it tries to open the current file's directory.
 
