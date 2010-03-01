@@ -9,7 +9,7 @@
 	<key>CFBundleIconFile</key>
 	<string>plug-in</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.justinhileman.codaplugin.gity</string>
+	<string>com.justinhileman.codaplugin.gitx</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundlePackageType</key>
@@ -34,7 +34,7 @@
 			<key>keyEquivalentConflict</key>
 			<false/>
 			<key>name</key>
-			<string>Open Site in Gity</string>
+			<string>Open Site in GitX</string>
 			<key>output</key>
 			<string>discard</string>
 			<key>script</key>

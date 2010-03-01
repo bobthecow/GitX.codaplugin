@@ -7,5 +7,5 @@ elif [ -n "$CODA_FILEPATH" ]; then
 	cd `dirname "$CODA_FILEPATH"`
 fi
 
-# Open gity.
-/usr/local/bin/gity
+# Open gitx.
+/usr/local/bin/gitx
