@@ -1,8 +1,10 @@
 GitX Coda Plugin
 ================
 
-This Coda plugin integrates Coda with [GitX](http://gitx.frim.nl/), a
-sweet little Git client for OS X.
+This Coda plugin integrates Coda with [GitX](http://gitx.frim.nl/).
+
+GitX is a git GUI made for Mac OS X. It currently features a history viewer much
+like gitk and a commit GUI like git gui. But then in silky smooth OS X style! 
 
 1. [Download GitX](http://gitx.frim.nl/)
 2. Install `gitx` Terminal support
