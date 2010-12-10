@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Find a directory ...
+if [ -n "$CODA_SITE_LOCAL_PATH" ]; then
+	cd "$CODA_SITE_LOCAL_PATH"
+elif [ -n "$CODA_FILEPATH" ]; then
+	cd `dirname "$CODA_FILEPATH"`
+fi
+
+if [ "true" = "$(git rev-parse --is-inside-work-tree 2>/dev/null)" ]; then
+	# Open gitx.
+	/usr/local/bin/gitx
+else
+	[[ -f `which growlnotify` ]] && growlnotify -a Coda -n Coda -m "This command only works with existing Git repos." "Is this a Git repo?"
+	osascript -e "beep 1"
+fi
+

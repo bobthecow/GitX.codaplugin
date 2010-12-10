@@ -31,16 +31,54 @@
 			<string>none</string>
 			<key>keyEquivalent</key>
 			<string>$^g</string>
-			<key>keyEquivalentConflict</key>
-			<false/>
 			<key>name</key>
 			<string>Open Site in GitX</string>
 			<key>output</key>
 			<string>discard</string>
 			<key>script</key>
-			<string>script</string>
+			<string>gitx</string>
 			<key>uuid</key>
 			<string>0198BACD-92E8-4879-9046-DBB10FAEA789</string>
+		</dict>
+		<dict>
+			<key>fallbackInput</key>
+			<string>none</string>
+			<key>keyEquivalent</key>
+			<string>$^h</string>
+			<key>name</key>
+			<string>View File History</string>
+			<key>output</key>
+			<string>discard</string>
+			<key>script</key>
+			<string>file_history</string>
+			<key>uuid</key>
+			<string>61582E9A-CA6D-4928-875F-7DFB2F8DEC53</string>
+		</dict>
+		<dict>
+			<key>fallbackInput</key>
+			<string>none</string>
+			<key>keyEquivalent</key>
+			<string>$^c</string>
+			<key>name</key>
+			<string>Commit</string>
+			<key>output</key>
+			<string>discard</string>
+			<key>script</key>
+			<string>gitx_commit</string>
+			<key>uuid</key>
+			<string>F907F0F9-14D4-4E74-883A-30CBFD511910</string>
+		</dict>
+		<dict>
+			<key>fallbackInput</key>
+			<string>none</string>
+			<key>name</key>
+			<string>Initialize Repo</string>
+			<key>output</key>
+			<string>discard</string>
+			<key>script</key>
+			<string>git_init</string>
+			<key>uuid</key>
+			<string>B6001DF1-9B09-47D3-B778-7F11621F01C2</string>
 		</dict>
 	</array>
 </dict>

@@ -21,6 +21,24 @@ Opens the current site directory in GitX.
 If you aren't in a site, it tries to open the current file's directory.
 
 
+### &#x2303;&#x21E7;H - View File History
+
+Open all commits from this file's history in GitX.
+
+
+### &#x2303;&#x21E7;C - Commit
+
+Open GitX in commit mode, ready to go!
+
+
+### Initialize Repo
+
+Initialize a repo in the site root directory and open GitX for the first commit.
+
+If you're not currently in an active site, this command will complain.
+
+
+
 License
 -------
 
